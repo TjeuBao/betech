@@ -1178,16 +1178,16 @@ div#myDiv {
 .pm3_header2 .overflow-scrl {
     text-align: justify;
 }
+
 .d_servive_img ul{
 	list-style:none;
 }
+
 .d_servive_img .more
 {
 	font-weight:bold;
-  position: absolute;
-  bottom: 10px;
-  left: 90px;
 }
+
 .d_servive_img ul li{
   position: relative;
 	width:250px;
@@ -1748,4 +1748,12 @@ div#myDiv {
 
 .footer-block-3 {
   padding-left: 30px;
+}
+
+.top-header {
+  background-color: #fff;
+}
+
+#menu {
+  max-width: 250px;
 }
