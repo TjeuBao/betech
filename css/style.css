@@ -294,11 +294,29 @@ opacity: 1;}
 }
 .d_logo{
 	float:left;
-
+  position: relative;
+  top: 5px;
 }
+
+.left {
+  width: 50%;
+  height: 200px;
+  background: #e8e8e8;
+  float: left;
+  padding: 20px;
+}
+
+.right {
+  width: 50%;
+  height: 200px;
+  background: #e8e8e8;
+  float: right;
+  padding: 20px;
+}
+
 .d_logo img
 {
-	width:160px;
+	width:220px;
 
 }
 .menu_left{
@@ -1731,7 +1749,7 @@ div#myDiv {
 }
 
 .footer-section {
-  background: #ffa5008c;
+  background: rgba(0, 0, 0, 0.05);
   padding: 20px 0;
   line-height: 28px;
 }
